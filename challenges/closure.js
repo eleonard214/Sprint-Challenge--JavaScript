@@ -18,6 +18,7 @@ myFunction();
 
 // Explanation: 
 
+// internal and nested function are both inside of the myFunction function. This means they are in the same scope.
 
 /* Task 2: Counter */
 
