@@ -26,13 +26,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach runs the function on every item in the array, it does not return anything. map runs a function on all items in the array and returns a new array the same size as the original with the results of the function.
+
 2. Explain the difference between a callback and a higher order function.
+
+a call back function is a function that is called upon in another function(the higher order function)
 
 3. What is closure?
 
+a closure is a function that has access to variables from another function's scope. function in a function
+
 4. Describe the four rules of the 'this' keyword.
 
+  1.  function called by new
+  2.   called by apply, bind, or call
+  3.   called as a method
+  4.   called in global scope
+
 5. Why do we need super() in an extended class?
+
+to pass any new attributes back to the parent class
 
 ### Task 1 - Project Set up
 
