@@ -21,5 +21,11 @@ myFunction();
 // internal and nested function are both inside of the myFunction function. This means they are in the same scope.
 
 /* Task 2: Counter */
-
+function summation(num) {
+for (let i = num; < num; i--){
+   let total = 0 += i
+}
+return total
+}
+console.log(summation(4))
 /* Create a function called `sumation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
